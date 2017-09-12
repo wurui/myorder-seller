@@ -6,9 +6,9 @@
             <table class="myorder" cellpadding="0" cellspacing="0">
                 <thead>
                     <tr>
-                        <th width="50%">商品信息</th>
-                        <th>买家信息</th>
-                        <th>时间和金额</th>
+                        <th width="50%">订单信息</th>
+                        <th>商品数量/买家</th>
+                        <th>状态</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -26,7 +26,7 @@
                         <tr>
                             <td class="title"><xsl:value-of select="title"/></td>
                             <td class="buyer">
-                                &#215;<xsl:value-of select="totalcount"/>
+                                <xsl:value-of select="totalcount"/>
                                 <br/>
                                 <nobr class="uid"><xsl:value-of select="uid"/></nobr>
                             </td>

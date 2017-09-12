@@ -14,17 +14,19 @@
   padding: 5px;
   color: #06f;
   font-size: 12px;
+  border-top: solid .5px #ccc;
 }
 .oxmod-myorder-seller .myorder .buyer,
 .oxmod-myorder-seller .myorder .last,
 .oxmod-myorder-seller .myorder .title {
-  padding-bottom: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   background-color: #fff;
 }
 .oxmod-myorder-seller .myorder .title {
   font-size: 12px;
   padding-left: 5px;
-  padding-top: 5px;
+  font-weight: 100;
 }
 .oxmod-myorder-seller .myorder .last,
 .oxmod-myorder-seller .myorder .buyer {
@@ -34,6 +36,9 @@
   font-style: normal;
   color: #f20;
 }
+.oxmod-myorder-seller .myorder .last {
+  min-width: 70px;
+}
 .oxmod-myorder-seller .status {
   font-style: normal;
   display: inline-block;
@@ -41,11 +46,11 @@
 }
 .oxmod-myorder-seller .status-0:before {
   content: '待支付';
-  color: #f60;
+  color: #999;
 }
 .oxmod-myorder-seller .status-1:before {
   content: '已支付';
-  color: #06f;
+  color: #f60;
 }
 .oxmod-myorder-seller .status-2:before {
   content: '已发货';
@@ -68,26 +73,29 @@
   border-style: none;
   padding: 2px 5px;
   border: solid 1px #eee;
-  border-radius: 3px;
+  border-radius: 7px;
   visibility: hidden;
+  height: 30px;
+  min-width: 50px;
 }
 .oxmod-myorder-seller .bt-op-0,
 .oxmod-myorder-seller .bt-op-1 {
   visibility: visible;
 }
 .oxmod-myorder-seller .bt-op-0:before {
-  content: '关闭订单';
-  color: #f00;
+  content: '关闭';
+  color: #999;
 }
 .oxmod-myorder-seller .bt-op-1:before {
-  content: '确认发货';
-  color: #06f;
+  content: '发货';
+  color: #666;
 }
 .oxmod-myorder-seller .uid {
   display: inline-block;
-  max-width: 6em;
+  max-width: 8em;
   overflow: hidden;
   text-overflow: ellipsis;
+  font-size: 12px;
 }
 .oxmod-myorder-seller .order_id {
   color: #999;
