@@ -13,6 +13,24 @@
     <data>
         <orders>
             <i>
+                <_id>59b67d8d057925720f8ba589</_id>
+                <title>定制版扫码车贴1张</title>
+                <uid>wx/oSCt3wQtSScptqdwlaAE5jRf6iGY</uid>
+                <totalcount>1</totalcount>
+                <totalfee>0.01</totalfee>
+                <status>1</status>
+                <time>2017-09-11 20:11:57</time>
+            </i>
+            <i>
+                <_id>59b67c6eb3221c71d754a2bd</_id>
+                <title>定制版扫码车贴1张</title>
+                <uid>wx/oSCt3wQtSScptqdwlaAE5jRf6iGY</uid>
+                <totalcount>1</totalcount>
+                <totalfee>0.01</totalfee>
+                <status>1</status>
+                <time>2017-09-11 20:07:10</time>
+            </i>
+            <i>
                 <title>好时（Hershey’s）好时kisses臻吻巧克力 浪漫满屋 京东限量定制礼盒 90g</title>
                 <detail>{}</detail>
                 <_id>test01</_id>
@@ -28,7 +46,7 @@
                 <_id>test01</_id>
                 <totalfee>100.00</totalfee>
                 <totalcount>1</totalcount>
-                <uid>nice_car</uid>
+                <uid>wx/oSCt3wQtSScptqdwlaAE5jRf6iGY</uid>
                 <time>2017-3-23 8:19:12</time>
                 <status>1</status>
             </i>

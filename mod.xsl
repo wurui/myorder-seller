@@ -14,12 +14,12 @@
                 <tbody>
                     <xsl:for-each select="data/orders/i">
                         <tr>
-                            <td class="tradeno">
-                                <xsl:value-of select="_id"/>
+                            <td class="tradeno" colspan="2">
+                                <nobr class="order_id"><xsl:value-of select="_id"/></nobr>
                                 <br/>
                                 <xsl:value-of select="time"/>
                             </td>
-                            <td class="time" colspan="2" align="right">
+                            <td class="time" align="right">
                                 <button class="J_op bt-op bt-op-{status}" data-tradeno="{tradeno}" data-status="{status}" type="button"></button>
                             </td>
                         </tr>
@@ -28,7 +28,7 @@
                             <td class="buyer">
                                 &#215;<xsl:value-of select="totalcount"/>
                                 <br/>
-                                <xsl:value-of select="uid"/>
+                                <nobr class="uid"><xsl:value-of select="uid"/></nobr>
                             </td>
                             <td class="last">
                                 <em class="price">&#165;<xsl:value-of select="totalfee"/></em>

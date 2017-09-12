@@ -83,3 +83,19 @@
   content: '确认发货';
   color: #06f;
 }
+.oxmod-myorder-seller .uid {
+  display: inline-block;
+  max-width: 6em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.oxmod-myorder-seller .order_id {
+  color: #999;
+  text-transform: uppercase;
+  /*
+    &:before{
+      content: '\233e';
+      font-size:1.2em;
+      color:#ccc;
+    }*/
+}
