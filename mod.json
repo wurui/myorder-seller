@@ -1,6 +1,18 @@
 {
   "name": "myorder-seller",
   "version": "0.0.1",
-  "apiDependencies": ["orders"]
+  "apiDependencies": [
+  	{
+  		"name":"orders",
+  		"selector":"seller",
+  		"LINK":[
+  			{
+  				"name":"detail",
+  				"title":"订单详情"
+  			}
+  		]
+  	}
+  ]
 }
+
 
