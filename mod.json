@@ -4,11 +4,11 @@
   "apiDependencies": [
   	{
   		"name":"ecom-orders",
-  		"selector":"seller_detail",
+  		"selector":"seller",
   		"LINK":[
   			{
   				"name":"detail",
-  				"title":"订单详情"
+  				"title":"卖家订单详情"
   			}
   		]
   	}
