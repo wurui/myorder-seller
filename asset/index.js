@@ -15,7 +15,7 @@ define(['oxjs'], function (OXJS) {
             		case 'accept':
 	            		tar.setAttribute('disabled','disabled');
 		    			$mod.OXPut({
-		    				orders:{
+		    				'ecom-orders':{
 		    					_id:order_id,
 		    					
 		    					$updater:'accept'
@@ -32,7 +32,7 @@ define(['oxjs'], function (OXJS) {
             		case 'refund':
 	            		if(confirm('确认退款')){
 	            			$mod.OXPut({
-			    				orders:{
+			    				'ecom-orders':{
 			    					_id:order_id,
 			    					$updater:'refundaccept'
 			    				}
